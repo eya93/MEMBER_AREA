@@ -1,0 +1,98 @@
+.sections{
+    display: -webkit-inline-box;
+}
+
+.section_img, .section_form {
+    width:50%;
+
+}
+label {
+    font-size: 14px;
+    padding-left: 5px;
+    color: black;
+}
+input{
+    outline: none;
+}
+.section_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:10px 80px;
+}
+.errorMsg{
+    font-size: 14px;
+    margin: 5px 50px 0;
+}
+.Msg{
+    font-size: 14px;
+}
+.welcome-section {
+    background: url("images/achievement-agreement-arms-1068523.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 150px 300px;
+}
+footer{
+    background-color:#28a745;
+    padding:10px 150px;
+    margin: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size:15px;
+    font-weight: bold;
+}
+.footer-contacts{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+.footer-contact-link{
+    padding:5px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+}
+
+.footer-contact-link:hover{
+    background-color: transparent;
+}
+li{
+    list-style-type: none;
+}
+.fab{
+    margin:5px;
+}
+.footer-link-button {
+    text-decoration: none;
+    color:black;
+}
+.footer-link-button:hover{
+    color:lightgrey;
+}
+.footer-msg{
+    margin: 2px;
+}
+.ml-auto{
+    margin-right: 150px;
+    left: auto ;
+    right: 0px;
+}
+.ml {
+    margin-right: 20px;
+    font-weight: bold;
+}
+.role-link{
+
+}
+.role-link:hover{
+    color:whitesmoke;
+}
+.brand{
+    margin-left: 100px
+}
